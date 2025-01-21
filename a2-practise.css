@@ -1,0 +1,1398 @@
+.frame-child {
+    height: 62px;
+    width: 62px;
+    position: relative;
+  }
+  .school {
+    text-decoration: none;
+    position: relative;
+    line-height: 30px;
+    font-weight: 700;
+    color: inherit;
+  }
+  .frame-container,
+  .school-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .school-wrapper {
+    flex-direction: column;
+    padding: var(--padding-mid) 0 0;
+  }
+  .frame-container {
+    flex-direction: row;
+    gap: 11px;
+  }
+  .about,
+  .admission,
+  .facilities,
+  .home {
+    text-decoration: none;
+    position: relative;
+    line-height: 30px;
+  }
+  .home {
+    font-weight: 700;
+    color: inherit;
+    display: inline-block;
+    min-width: 59px;
+  }
+  .about,
+  .admission,
+  .facilities {
+    font-weight: 500;
+  }
+  .about {
+    color: var(--sky-blue);
+    display: inline-block;
+    min-width: 58px;
+  }
+  .admission,
+  .facilities {
+    color: #05d4df;
+  }
+  .admission {
+    color: #5d58ef;
+    display: inline-block;
+    min-width: 97px;
+  }
+  .home-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .contact,
+  .frame-wrapper {
+    font-size: var(--font-size-xl);
+  }
+  .frame-wrapper {
+    width: 387px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    color: var(--orange);
+  }
+  .contact {
+    text-decoration: none;
+    position: relative;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: var(--font-quicksand);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    min-width: 77px;
+  }
+  .contact-wrapper {
+    border-radius: var(--br-xs);
+    background-color: var(--orange);
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-41xl);
+  }
+  .contact-wrapper,
+  .frame-button,
+  .frame-group {
+    display: flex;
+    align-items: flex-start;
+  }
+  .frame-button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-7xs) 0 0;
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .frame-group {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--black);
+    font-family: var(--font-quicksand);
+  }
+  .empowering {
+    margin: 0;
+  }
+  .towards-vision {
+    color: var(--sky-blue);
+  }
+  .students-from-small-age-toward {
+    margin: 0;
+    color: var(--black);
+  }
+  .empowering-students-from-container {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 61px;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .enroll-now,
+  .with-the-courage {
+    position: relative;
+    font-size: var(--font-size-xl);
+    color: var(--black);
+  }
+  .enroll-now {
+    line-height: 30px;
+    font-family: var(--font-quicksand);
+    color: var(--color-white);
+    text-align: left;
+  }
+  .enroll-now-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xs) 46px var(--padding-3xs) 47px;
+    background-color: var(--black);
+    border-radius: var(--br-xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .enroll-now-wrapper:hover {
+    background-color: #454545;
+  }
+  .empowering-students-from-small-parent,
+  .frame-wrapper1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .empowering-students-from-small-parent {
+    align-self: stretch;
+    gap: var(--gap-5xl);
+  }
+  .frame-wrapper1 {
+    flex: 1;
+    padding: 122px 0 0;
+    box-sizing: border-box;
+    min-width: 416px;
+    max-width: 100%;
+  }
+  .group-icon,
+  .rectangle-div {
+    top: 108.8px;
+    left: 0;
+    border-radius: var(--br-90xl);
+  }
+  .group-icon {
+    left: 234.3px;
+    background-color: var(--orange);
+  }
+  .little-boy-playing-superhero-p-icon {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 98px;
+    max-height: 100%;
+    width: 310.8px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .rectangle-container {
+    height: 575px;
+    position: relative;
+    min-width: 468.6px;
+    z-index: 3;
+  }
+  .frame-div {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 50px;
+  }
+  .desktop-inner,
+  .frame-div,
+  .frame-parent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent {
+    width: 1158.6px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-lg);
+  }
+  .desktop-inner {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 56px;
+    color: var(--orange);
+    font-family: var(--font-quicksand);
+  }
+  .heading-2 {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    line-height: 57.5px;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .heading-2-standard-curriculu-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-330xl);
+  }
+  .svg-icon {
+    height: 136.8px;
+    width: 136.8px;
+    position: relative;
+  }
+  .svg-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-57xl) 0 var(--padding-55xl);
+  }
+  .heading-4 {
+    flex: 1;
+    position: relative;
+    line-height: 30.7px;
+  }
+  .heading-4-kinder-3-6-years-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-20xl) 0 var(--padding-18xl);
+    font-size: 24.5px;
+  }
+  .cum-sociis-natoque-container {
+    position: relative;
+    line-height: 28.3px;
+    font-weight: 500;
+  }
+  .cum-sociis-natoque-penatibus-e-wrapper {
+    align-self: stretch;
+    height: 81px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-6xs-5);
+    box-sizing: border-box;
+    color: var(--color-gray-100);
+    font-family: var(--font-raleway);
+  }
+  .read-more {
+    height: 18.9px;
+    flex: 1;
+    position: relative;
+    line-height: 18.9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .read-more-wrapper,
+  .section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .read-more-wrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-72xl);
+    color: var(--color-lightskyblue);
+  }
+  .section {
+    box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05) inset;
+    border-radius: var(--br-lg-9);
+    background: linear-gradient(180deg, #def5ff, rgba(255, 255, 255, 0) 40%), #fff;
+    border: 0.9px solid var(--color-aliceblue);
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: var(--padding-32xl) var(--padding-19xl) var(--padding-38xl)
+      var(--padding-21xl);
+    gap: var(--gap-13xl-1);
+    min-width: 276px;
+    max-width: 100%;
+    position: relative;
+  }
+  .svg-icon1 {
+    height: 141.5px;
+    width: 141.5px;
+    position: relative;
+  }
+  .svg-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-55xl) 0 72px;
+  }
+  .heading-41 {
+    flex: 1;
+    position: relative;
+    line-height: 30.7px;
+  }
+  .heading-4-elementary-school-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 32px 0 31px;
+    font-size: var(--font-size-5xl);
+  }
+  .cum-sociis-natoque-penatibus-e-container {
+    align-self: stretch;
+    height: 81.1px;
+    flex-direction: row;
+    padding: 0 0 6.6px;
+    box-sizing: border-box;
+    color: var(--color-gray-100);
+    font-family: var(--font-raleway);
+  }
+  .cum-sociis-natoque-penatibus-e-container,
+  .read-more-container,
+  .section1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .read-more-container {
+    flex-direction: row;
+    padding: 0 var(--padding-72xl);
+    color: var(--color-orange-100);
+  }
+  .section1 {
+    box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05) inset;
+    border-radius: var(--br-lg-9);
+    background: linear-gradient(180deg, #fff4dc, rgba(255, 255, 255, 0) 40%), #fff;
+    border: 0.9px solid var(--color-papayawhip);
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: var(--padding-32xl) var(--padding-19xl) var(--padding-38xl)
+      var(--padding-21xl);
+    gap: var(--gap-13xl-1);
+    min-width: 276px;
+    max-width: 100%;
+    position: relative;
+  }
+  .heading-4-middle-10-16-yea-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 28px 0 27px;
+    font-size: var(--font-size-5xl);
+  }
+  .heading-4-middle-10-16-yea-wrapper,
+  .read-more-frame,
+  .section2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .read-more-frame {
+    flex-direction: row;
+    padding: 0 var(--padding-72xl);
+    color: var(--color-blue);
+  }
+  .section2 {
+    box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05) inset;
+    border-radius: var(--br-lg-9);
+    background: linear-gradient(180deg, #eee1ff, rgba(255, 255, 255, 0) 40%), #fff;
+    border: 0.9px solid var(--color-lavender);
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: var(--padding-32xl) var(--padding-19xl) var(--padding-38xl)
+      var(--padding-21xl);
+    gap: var(--gap-13xl-1);
+    min-width: 276px;
+    max-width: 100%;
+    position: relative;
+  }
+  .section-parent {
+    align-self: stretch;
+    gap: 28.3px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 368px);
+    grid-row-gap: 0;
+    grid-column-gap: 28px;
+    font-size: var(--font-size-base-1);
+    color: var(--color-gray-200);
+  }
+  .symbol {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 16.4px;
+  }
+  .button-previous-slide,
+  .button-previous-slide-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .button-previous-slide {
+    flex: 1;
+    border-radius: var(--br-11xl);
+    background-color: var(--orange);
+    padding: var(--padding-mid) var(--padding-3xl) var(--padding-lgi);
+  }
+  .button-previous-slide-parent {
+    gap: 10px;
+  }
+  .classes,
+  .classes-inner {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    font-family: var(--font-font-awesome-5-free);
+  }
+  .classes {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-41xl) var(--padding-121xl);
+    box-sizing: border-box;
+    gap: var(--gap-61xl);
+    background-image: url(./public/classes@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    max-width: 100%;
+    z-index: 2;
+    text-align: center;
+    font-size: var(--font-size-27xl);
+    color: var(--color-black);
+    font-family: var(--font-quicksand);
+  }
+  .heading-21 {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    line-height: 57.5px;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .heading-2-standard-curriculu-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-330xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .rectangle-icon {
+    height: 337px;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-base) var(--br-base) 0 0;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .november-19-2019 {
+    height: 18.2px;
+    position: relative;
+    line-height: 18.2px;
+    text-transform: capitalize;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+  .background,
+  .rectangle-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .background {
+    margin: 0 !important;
+    position: absolute;
+    bottom: -25px;
+    left: 38.3px;
+    border-radius: var(--br-28xl-9);
+    background-color: #3cd8e8;
+    padding: 14.4px var(--padding-lg) 15.3px var(--padding-lgi);
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .rectangle-group {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+  }
+  .a-fun-toddler-container1 {
+    width: 100%;
+  }
+  .a-fun-toddler-container {
+    width: 402.5px;
+    position: relative;
+    line-height: 38.4px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .beautiful-branding-for-container {
+    position: relative;
+    font-size: var(--font-size-base-3);
+    line-height: 28.8px;
+    font-weight: 500;
+    font-family: var(--font-raleway);
+    color: #666;
+    flex-shrink: 0;
+  }
+  .a-fun-toddler-coloring-trainin-parent,
+  .article,
+  .article-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .a-fun-toddler-coloring-trainin-parent {
+    flex-direction: column;
+    gap: 51.8px;
+  }
+  .article,
+  .article-inner {
+    box-sizing: border-box;
+  }
+  .article-inner {
+    flex-direction: row;
+    padding: 0 var(--padding-19xl);
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-quicksand);
+  }
+  .article {
+    border-radius: var(--br-base);
+    background-color: var(--color-white);
+    flex-direction: column;
+    padding: 0 0 34.5px;
+    gap: 61.5px;
+    position: relative;
+  }
+  .november-19-20191 {
+    position: relative;
+    line-height: 28.8px;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  .background1 {
+    position: absolute;
+    top: 157.8px;
+    left: 38.8px;
+    border-radius: var(--br-28xl-9);
+    background-color: var(--color-yellowgreen);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs-6) var(--padding-lg) var(--padding-2xs-5)
+      var(--padding-lgi);
+    white-space: nowrap;
+  }
+  .find-out-if-container {
+    height: 47.9px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: -91px;
+    left: 38.3px;
+    line-height: 28.8px;
+    display: flex;
+    align-items: center;
+  }
+  .background2 {
+    border-radius: var(--br-28xl-9);
+    background-color: var(--color-yellowgreen);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs-6) var(--padding-lg) var(--padding-2xs-5)
+      var(--padding-lgi);
+    color: var(--color-white);
+    font-family: var(--font-raleway);
+  }
+  .article2,
+  .find-out-if-container1 {
+    display: flex;
+    font-family: var(--font-quicksand);
+    color: var(--color-black);
+  }
+  .article2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-base) var(--br-base) 0 0;
+    width: 100%;
+    height: 177px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-138xl-8) var(--padding-19xl) 0;
+    box-sizing: border-box;
+    background-image: url(./public/article@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    z-index: 1;
+  }
+  .find-out-if-container1 {
+    height: 47.9px;
+    position: relative;
+    line-height: 28.8px;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .article1,
+  .background3,
+  .background4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .article1 {
+    width: 290.7px;
+    border-radius: var(--br-base);
+    background-color: var(--color-white);
+    flex-direction: column;
+    padding: 0 0 var(--padding-14xl-6) var(--padding-19xl);
+    box-sizing: border-box;
+    gap: var(--gap-5xl);
+  }
+  .background3,
+  .background4 {
+    border-radius: var(--br-28xl-9);
+    background-color: var(--color-mediumslateblue-100);
+    flex-direction: row;
+    padding: var(--padding-3xs-6) var(--padding-lg) var(--padding-2xs-5)
+      var(--padding-lgi);
+  }
+  .background3 {
+    position: absolute;
+    top: 157.8px;
+    left: 38.7px;
+    white-space: nowrap;
+  }
+  .background4 {
+    color: var(--color-white);
+    font-family: var(--font-raleway);
+  }
+  .article4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-base) var(--br-base) 0 0;
+    width: 100%;
+    height: 177px;
+    padding: var(--padding-138xl-8) var(--padding-19xl) 0;
+    box-sizing: border-box;
+    background-image: url(./public/article1@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    z-index: 1;
+    color: var(--color-black);
+    font-family: var(--font-quicksand);
+  }
+  .article-group,
+  .article4,
+  .background5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .article-group {
+    align-self: stretch;
+    gap: var(--gap-lgi-2);
+  }
+  .background5 {
+    position: absolute;
+    top: 157.6px;
+    left: 38.8px;
+    border-radius: var(--br-28xl-9);
+    background-color: var(--color-yellowgreen);
+    padding: var(--padding-3xs-6) var(--padding-lg) var(--padding-2xs-5)
+      var(--padding-lgi);
+    white-space: nowrap;
+  }
+  .classroom-management-technique-container {
+    height: 47.9px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: -86px;
+    left: 38.3px;
+    line-height: 28.8px;
+    display: flex;
+    align-items: center;
+  }
+  .article6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-base) var(--br-base) 0 0;
+    width: 100%;
+    height: 182px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-138xl-8) var(--padding-19xl) 0;
+    box-sizing: border-box;
+    background-image: url(./public/article2@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    z-index: 1;
+    color: var(--color-black);
+    font-family: var(--font-quicksand);
+  }
+  .background-container {
+    margin-left: -38.8px;
+    width: 291px;
+    height: 195.9px;
+    position: relative;
+  }
+  .article5 {
+    width: 290.7px;
+    border-radius: var(--br-base);
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs-2) 0 var(--padding-14xl-6) var(--padding-19xl);
+    box-sizing: border-box;
+    gap: var(--gap-5xl);
+  }
+  .july-19-2019 {
+    position: relative;
+    line-height: 28.8px;
+    text-transform: capitalize;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 90.4px;
+  }
+  .article8,
+  .background7 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .background7 {
+    top: 157.6px;
+    left: 38.7px;
+    border-radius: var(--br-28xl-9);
+    background-color: var(--color-yellowgreen);
+    padding: var(--padding-3xs-6) var(--padding-lg) var(--padding-2xs-5)
+      var(--padding-lgi);
+    white-space: nowrap;
+  }
+  .article8 {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-base) var(--br-base) 0 0;
+    width: 100%;
+    height: 182px;
+    padding: var(--padding-138xl-8) var(--padding-19xl) 0;
+    box-sizing: border-box;
+    background-image: url(./public/article3@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    z-index: 1;
+    color: var(--color-black);
+    font-family: var(--font-quicksand);
+  }
+  .background-parent1 {
+    margin-left: -38.7px;
+    width: 291px;
+    height: 195.9px;
+    position: relative;
+  }
+  .frame-parent4 {
+    position: relative;
+  }
+  .article-parent {
+    align-self: stretch;
+    gap: 19.1px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 540px 601px;
+    grid-row-gap: 0;
+    grid-column-gap: 19px;
+    text-align: left;
+    font-size: var(--font-size-base-3);
+    color: var(--color-white);
+    font-family: var(--font-raleway);
+  }
+  .view-all-wrapper {
+    flex: 1;
+    border-radius: var(--br-xs);
+    background-color: var(--black);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-41xl) var(--padding-3xs)
+      var(--padding-42xl);
+  }
+  .stories,
+  .stories-inner {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+  }
+  .stories-inner {
+    cursor: pointer;
+    border: 0;
+    padding: 0 481px;
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .stories {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-41xl) var(--padding-121xl);
+    box-sizing: border-box;
+    gap: var(--gap-61xl);
+    background-image: url(./public/stories@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    max-width: 100%;
+    z-index: 1;
+    text-align: center;
+    font-size: var(--font-size-27xl);
+    color: var(--color-black);
+    font-family: var(--font-quicksand);
+  }
+  .rectangle-div {
+    height: 519px;
+    width: 1439px;
+    position: relative;
+    background-color: var(--sky-blue);
+    display: none;
+    max-width: 100%;
+  }
+  .group-icon {
+    height: 81.7px;
+    width: 82.9px;
+    position: relative;
+    z-index: 1;
+  }
+  .kids-education {
+    position: relative;
+    line-height: 39.5px;
+    z-index: 1;
+  }
+  .frame-parent3,
+  .kids-education-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .kids-education-wrapper {
+    flex-direction: column;
+    padding: 1.3px 0 0;
+  }
+  .frame-parent3 {
+    flex-direction: row;
+    gap: 10.7px;
+  }
+  .pizza-ipsum-dolor {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .frame-parent2,
+  .pizza-ipsum-dolor-meat-lovers-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .pizza-ipsum-dolor-meat-lovers-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-6xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-xl);
+  }
+  .frame-parent2 {
+    width: 406px;
+    flex-direction: column;
+    gap: 35.3px;
+  }
+  .about-school {
+    position: relative;
+    z-index: 1;
+  }
+  .admission1,
+  .facilities1,
+  .home1 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 58.9px;
+    z-index: 1;
+  }
+  .admission1,
+  .facilities1 {
+    min-width: 82.2px;
+  }
+  .admission1 {
+    min-width: 98.5px;
+  }
+  .about-school-parent,
+  .home-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .home-group {
+    gap: var(--gap-xl);
+    font-size: var(--font-size-xl);
+  }
+  .about-school-parent {
+    gap: var(--gap-13xl);
+    min-width: 156.4px;
+  }
+  .heading-43 {
+    position: relative;
+    line-height: 26px;
+    z-index: 1;
+  }
+  .symbol2 {
+    flex: 1;
+    position: relative;
+    line-height: 20px;
+  }
+  .link {
+    background-color: var(--color-darkslateblue);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .link,
+  .link1,
+  .link2 {
+    flex: 1;
+    border-radius: var(--br-9xs);
+    padding: var(--padding-3xs) var(--padding-4xs) var(--padding-3xs)
+      var(--padding-3xs);
+    z-index: 1;
+  }
+  .link1 {
+    background-color: var(--color-hotpink);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .link2 {
+    background-color: var(--color-cornflowerblue);
+  }
+  .link-parent,
+  .link2,
+  .link3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .link3 {
+    flex: 1;
+    border-radius: var(--br-9xs);
+    background-color: var(--color-tomato);
+    padding: var(--padding-3xs) var(--padding-6xs);
+    z-index: 1;
+  }
+  .link-parent {
+    align-self: stretch;
+    gap: 10.2px;
+    text-align: center;
+    font-size: var(--font-size-xl);
+  }
+  .heading-4-keep-in-touch-parent {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-13xl);
+  }
+  .frame-parent4,
+  .frame-wrapper2,
+  .heading-4-keep-in-touch-parent {
+    display: flex;
+    align-items: flex-start;
+  }
+  .frame-wrapper2 {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+    min-width: 192.9px;
+    font-size: var(--font-size-7xl);
+  }
+  .frame-parent4 {
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 492.2px;
+    max-width: 100%;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-5xl);
+  }
+  .desktop,
+  .rectangle-container {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .rectangle-container {
+    align-self: stretch;
+    background-color: var(--sky-blue);
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 123px var(--padding-121xl);
+    gap: 172.7px;
+    min-height: 519px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 42.1px;
+    color: var(--color-white);
+    font-family: var(--font-quicksand);
+  }
+  .desktop {
+    width: 100%;
+    position: relative;
+    background-color: var(--white);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: var(--padding-xl) 0 var(--padding-12xs);
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1275px) {
+    .heading-2-standard-curriculu-container,
+    .heading-2-standard-curriculu-wrapper {
+      padding-left: var(--padding-155xl);
+      padding-right: var(--padding-155xl);
+      box-sizing: border-box;
+    }
+    .article {
+      flex: 1;
+      position: relative;
+    }
+    .article-parent {
+      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: 540px 601px;
+      grid-row-gap: 0;
+      grid-column-gap: 19px;
+    }
+    .frame-parent2,
+    .frame-parent4 {
+      flex: 1;
+    }
+    .rectangle-container {
+      gap: 86px;
+      flex-wrap: wrap;
+      padding-left: var(--padding-51xl);
+      padding-right: var(--padding-51xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .rectangle-container {
+      flex: 1;
+    }
+    .frame-div {
+      flex-wrap: wrap;
+    }
+    .classes {
+      padding-top: var(--padding-20xl);
+      padding-bottom: var(--padding-20xl);
+      box-sizing: border-box;
+    }
+    .article {
+      position: relative;
+      min-width: 100%;
+    }
+    .stories {
+      padding-top: var(--padding-20xl);
+      padding-bottom: var(--padding-20xl);
+      box-sizing: border-box;
+    }
+    .frame-parent4 {
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .home-parent {
+      display: none;
+    }
+    .frame-wrapper {
+      width: 0;
+    }
+    .empowering-students-from-container {
+      font-size: 45px;
+      line-height: 49px;
+    }
+    .frame-wrapper1,
+    .rectangle-container {
+      min-width: 100%;
+    }
+    .frame-div {
+      gap: 25px;
+    }
+    .heading-2 {
+      font-size: var(--font-size-18xl);
+      line-height: 46px;
+    }
+    .heading-2-standard-curriculu-wrapper {
+      padding-left: var(--padding-68xl);
+      padding-right: var(--padding-68xl);
+      box-sizing: border-box;
+    }
+    .section,
+    .section1,
+    .section2 {
+      padding-top: var(--padding-14xl);
+      padding-bottom: var(--padding-18xl);
+      position: relative;
+    }
+    .classes {
+      gap: var(--gap-21xl);
+      padding-left: var(--padding-51xl);
+      padding-right: var(--padding-51xl);
+      box-sizing: border-box;
+    }
+    .heading-21 {
+      font-size: var(--font-size-18xl);
+      line-height: 46px;
+    }
+    .heading-2-standard-curriculu-container {
+      padding-left: var(--padding-68xl);
+      padding-right: var(--padding-68xl);
+      box-sizing: border-box;
+    }
+    .article {
+      gap: 31px;
+      position: relative;
+    }
+    .article1 {
+      flex: 1;
+    }
+    .article-group {
+      flex-wrap: wrap;
+    }
+    .article5 {
+      flex: 1;
+    }
+    .frame-parent4 {
+      position: relative;
+      min-width: 100%;
+    }
+    .stories {
+      gap: var(--gap-21xl);
+      padding: var(--padding-6xl) var(--padding-51xl);
+      box-sizing: border-box;
+    }
+    .kids-education {
+      font-size: var(--font-size-15xl);
+      line-height: 32px;
+    }
+    .frame-parent2 {
+      min-width: 100%;
+    }
+    .rectangle-container {
+      gap: 43px;
+      padding: var(--padding-61xl) var(--padding-16xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .empowering-students-from-container {
+      font-size: var(--font-size-15xl);
+      line-height: 37px;
+    }
+    .with-the-courage {
+      font-size: var(--font-size-base);
+    }
+    .frame-wrapper1 {
+      padding-top: 79px;
+      box-sizing: border-box;
+    }
+    .heading-2 {
+      font-size: var(--font-size-9xl);
+      line-height: 34px;
+    }
+    .heading-2-standard-curriculu-wrapper,
+    .svg-wrapper {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .heading-4 {
+      font-size: var(--font-size-xl);
+      line-height: 25px;
+    }
+    .read-more-wrapper {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .section {
+      gap: var(--gap-base);
+      position: relative;
+    }
+    .svg-container {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .heading-41 {
+      font-size: var(--font-size-lgi);
+      line-height: 25px;
+    }
+    .read-more-container {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .section1 {
+      gap: var(--gap-base);
+      position: relative;
+    }
+    .read-more-frame {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .section2 {
+      gap: var(--gap-base);
+      position: relative;
+    }
+    .symbol {
+      font-size: var(--font-size-lgi);
+      line-height: 19px;
+    }
+    .classes {
+      gap: var(--gap-xl);
+      padding: var(--padding-6xl) var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .heading-21 {
+      font-size: var(--font-size-9xl);
+      line-height: 34px;
+    }
+    .heading-2-standard-curriculu-container {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .a-fun-toddler-container {
+      font-size: var(--font-size-lgi);
+      line-height: 31px;
+    }
+    .a-fun-toddler-coloring-trainin-parent {
+      gap: 26px;
+    }
+    .article {
+      gap: 15px;
+      position: relative;
+    }
+    .stories,
+    .stories-inner {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .stories {
+      gap: var(--gap-xl);
+    }
+    .kids-education {
+      font-size: 25px;
+      line-height: 24px;
+    }
+    .pizza-ipsum-dolor {
+      font-size: var(--font-size-base);
+    }
+    .frame-parent2 {
+      gap: var(--gap-lg);
+    }
+    .about-school {
+      font-size: var(--font-size-lgi);
+    }
+    .admission1,
+    .facilities1,
+    .home1 {
+      font-size: var(--font-size-base);
+    }
+    .about-school-parent {
+      flex: 1;
+    }
+    .heading-43 {
+      font-size: 21px;
+      line-height: 21px;
+    }
+    .symbol2 {
+      font-size: var(--font-size-base);
+      line-height: 16px;
+    }
+    .frame-wrapper2 {
+      flex: 1;
+    }
+    .frame-parent4 {
+      flex-wrap: wrap;
+    }
+    .rectangle-container {
+      gap: var(--gap-3xl);
+    }
+  }
+  
